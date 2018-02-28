@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Free LowPoly SciFi Pack/Scenes/DemoScene.unity
+  isLoaded: 1
+  isActive: 1
