@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-vive-inputs", "Assembly-CSharp.csproj", "{CF35A733-D62A-B675-53B4-1F3F72B3E52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-vive-inputs", "Assembly-CSharp-Editor.csproj", "{4722FFDE-4821-2477-4403-DE3DC9472ACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF35A733-D62A-B675-53B4-1F3F72B3E52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF35A733-D62A-B675-53B4-1F3F72B3E52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF35A733-D62A-B675-53B4-1F3F72B3E52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF35A733-D62A-B675-53B4-1F3F72B3E52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4722FFDE-4821-2477-4403-DE3DC9472ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4722FFDE-4821-2477-4403-DE3DC9472ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4722FFDE-4821-2477-4403-DE3DC9472ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4722FFDE-4821-2477-4403-DE3DC9472ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
