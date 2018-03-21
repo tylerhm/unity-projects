@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/headset-and-hands.unity
-  isLoaded: 1
-  isActive: 1
