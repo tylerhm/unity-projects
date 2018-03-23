@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/stem/Desktop/Tyler Unity Projects/unity-projects/MacOS/working-through-book/Builds/Test.app
+/Users/stem/Desktop/Tyler Unity Projects/unity-projects/MacOS/working-through-book/Builds/FollowGaze.app
 SceneListBegin?
 Assets/Scenes/Diorama.unity
 SceneListEnd?
@@ -182,3 +182,5 @@ b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RandomPosition
+89f1002de2ccd10817785fa1ef9b9690 Assembly-CSharp.dll:.LookMoveTo
