@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class KillTarget : MonoBehaviour {
 	public GameObject target;
@@ -8,6 +9,7 @@ public class KillTarget : MonoBehaviour {
 	public GameObject killEffect;
 	public float timeToSelect = 3.0f;
 	public int score;
+	public Text scoreText;
 
 	private float countDown;
 
@@ -15,6 +17,7 @@ public class KillTarget : MonoBehaviour {
 		score = 0;
 		countDown = timeToSelect;
 		hitEffect.enableEmission = false;
+		scoreText.text = "Score: 0";
 	}
 	
 	void Update () {
@@ -32,6 +35,7 @@ public class KillTarget : MonoBehaviour {
 				// killed
 				Instantiate (killEffect, target.transform.position, target.transform.rotation);
 				score += 1;
+				scoreText.text = "Score: " + score;
 				countDown = timeToSelect;
 				SetRandomPosition ();
 			}

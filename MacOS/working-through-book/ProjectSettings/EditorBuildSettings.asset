@@ -8,3 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Diorama.unity
     guid: 086f7a2b496934e9784eb7e7f5d61001
+  - enabled: 0
+    path: Assets/Scenes/ReticleCursorEdit.unity
+    guid: 5271ffbdf9c044dc8bad0e6daa786318
+  - enabled: 0
+    path: Assets/Scenes/WindshieldHUDEdit.unity
+    guid: dc432c768263f450fbe3cd1be2a2357d

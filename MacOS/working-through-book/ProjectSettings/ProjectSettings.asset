@@ -641,12 +641,13 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 6dca76ea-dade-4011-bcea-f29622417d5f
+  cloudProjectId: de179fb2-a2e5-4706-ba5a-d169a151287c
   projectName: working-through-book
-  organizationId: tprepdev
+  organizationId: unity_1jutkpxb2pwx0g
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

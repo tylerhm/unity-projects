@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KillTarget.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LookMoveTo.cs">
     <Files>
-      <File FileName="Assets/Scripts/LookMoveTo.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Clicker.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LookMoveTo.cs" Line="14" Column="3" />
       <File FileName="Assets/Scripts/RandomPosition.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/KillTarget.cs" Line="41" Column="28" />
+      <File FileName="Assets/Scripts/KillTarget.cs" Line="12" Column="24" />
+      <File FileName="Assets/Scripts/CursorPositioner.cs" Line="22" Column="4" />
+      <File FileName="Assets/Scripts/DestroyTimeout.cs" Line="9" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
