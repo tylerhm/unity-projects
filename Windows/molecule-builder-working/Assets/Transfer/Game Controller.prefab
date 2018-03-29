@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1083287644946354}
+  m_IsPrefabParent: 1
+--- !u!1 &1083287644946354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4265553007826104}
+  - component: {fileID: 114722739578980520}
+  m_Layer: 0
+  m_Name: Game Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265553007826104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083287644946354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114722739578980520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1083287644946354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8ea91fb8293514584c4e04a5ade04c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carbon: {fileID: 1499160793817510, guid: d076e7c74c707d447a8e97c8180f126a, type: 2}
+  hydrogen: {fileID: 1292551572582726, guid: ed171bc0b1068f8428233259f896050e, type: 2}
+  oxygen: {fileID: 1246541019595830, guid: 828b269e19c81ec428d6a630606a5a7b, type: 2}
+  nitrogen: {fileID: 1466375451183802, guid: ab5c06723dac5b84d921d504db92c07c, type: 2}
+  phosphorous: {fileID: 1066821468319364, guid: 6b98ae3876f2c2247b87e591bfdbd965,
+    type: 2}
+  sulfur: {fileID: 1754734059461700, guid: 402729ce797db494ea2fad29ba64658d, type: 2}
+  flourine: {fileID: 1559590109564032, guid: 68d3ce7b0f450ed4297fb56c3f104a14, type: 2}
+  chlorine: {fileID: 1985330899002588, guid: aaf41c47c74bd564ea742f698b3ebbe2, type: 2}
+  bond: {fileID: 1961212400279518, guid: 1438db6edf2aa6042aa08580ceb431ad, type: 2}
