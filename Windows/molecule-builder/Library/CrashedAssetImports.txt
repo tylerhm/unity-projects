@@ -1,1 +1,0 @@
-Assets/SteamVR/InteractionSystem/Longbow/Textures/TorchFire.png
