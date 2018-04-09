@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StereoChemistry", "Assembly-CSharp.csproj", "{7790B2A8-8B82-3473-14B7-F10A97C820EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StereoChemistry", "Assembly-CSharp-Editor.csproj", "{FEBCD0F6-A07B-6D45-9D17-FF136C2FB604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7790B2A8-8B82-3473-14B7-F10A97C820EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7790B2A8-8B82-3473-14B7-F10A97C820EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7790B2A8-8B82-3473-14B7-F10A97C820EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7790B2A8-8B82-3473-14B7-F10A97C820EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBCD0F6-A07B-6D45-9D17-FF136C2FB604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBCD0F6-A07B-6D45-9D17-FF136C2FB604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBCD0F6-A07B-6D45-9D17-FF136C2FB604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBCD0F6-A07B-6D45-9D17-FF136C2FB604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

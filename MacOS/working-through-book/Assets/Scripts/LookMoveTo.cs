@@ -1,9 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LookMoveTo : MonoBehaviour {
 	public GameObject ground;
+	public Transform infoBubble;
+
+	private Text infoText;
+
+	void Start() {
+		if (infoBubble != null) {
+			infoText = infoBubble.Find ("Text").GetComponent<Text> ();
+		}
+	}
 
 	void Update () {
 		Transform camera = Camera.main.transform;
@@ -17,9 +27,13 @@ public class LookMoveTo : MonoBehaviour {
 		if (Physics.Raycast (ray, out hit)) {
 			hitObject = hit.collider.gameObject;
 			if (hitObject == ground) {
-				Debug.Log ("Hit (x, y, z): " + hit.point.ToString ("F2"));
-				transform.position = hit.point;
+				if (infoBubble != null) {
+					infoText.text = "X: " + hit.point.x.ToString ("F2") + ", Z: " + hit.point.z.ToString ("F2");
+
+					infoBubble.LookAt (camera.position);
+					infoBubble.Rotate (0.0f, 180.0f, 0.0f);
 			}
 		}
 	}
+}
 }

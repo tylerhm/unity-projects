@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/stem/Desktop/Tyler Unity Projects/unity-projects/MacOS/working-through-book/Builds/Test.app
+/Users/stem/Desktop/Tyler Unity Projects/unity-projects/MacOS/working-through-book/Builds/Default.app
 SceneListBegin?
 Assets/Scenes/Diorama.unity
 SceneListEnd?
@@ -163,8 +163,9 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+81d3fa35f3270744d8c271fbb7597c65 Assembly-CSharp.dll:.DestroyTimeout
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit
-89f1002de2ccd10817785fa1ef9b9690 Assembly-CSharp.dll:.LookMoveTo
+ac90238f9282fe777e222587464683b3 Assembly-CSharp.dll:.LookMoveTo
 b1f0704fc1b542c80ecf3fa1bbf472a1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
@@ -196,4 +197,3 @@ b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.Explosive
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.FPSCounter
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-81d3fa35f3270744d8c271fbb7597c65 Assembly-CSharp.dll:.DestroyTimeout
