@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "molecule-builder-windows-vive", "Assembly-CSharp.csproj", "{8A7D6B8A-96ED-9CFB-BF9E-B5E6FF12D761}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "molecule-builder-windows-vive", "Assembly-CSharp-Editor.csproj", "{4AFDF3D6-75C8-4F69-BF14-3D69A64ED9A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7D6B8A-96ED-9CFB-BF9E-B5E6FF12D761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7D6B8A-96ED-9CFB-BF9E-B5E6FF12D761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7D6B8A-96ED-9CFB-BF9E-B5E6FF12D761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7D6B8A-96ED-9CFB-BF9E-B5E6FF12D761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFDF3D6-75C8-4F69-BF14-3D69A64ED9A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFDF3D6-75C8-4F69-BF14-3D69A64ED9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFDF3D6-75C8-4F69-BF14-3D69A64ED9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFDF3D6-75C8-4F69-BF14-3D69A64ED9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
