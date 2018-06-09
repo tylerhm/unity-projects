@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "molecule-builder-macOS-vive", "Assembly-CSharp.csproj", "{15804BA8-4FA1-8CCD-FC26-F7024A74D92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "molecule-builder-macOS-vive", "Assembly-CSharp-Editor.csproj", "{BDF1CB95-6E24-DC5F-7315-989EB564B90A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15804BA8-4FA1-8CCD-FC26-F7024A74D92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15804BA8-4FA1-8CCD-FC26-F7024A74D92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15804BA8-4FA1-8CCD-FC26-F7024A74D92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15804BA8-4FA1-8CCD-FC26-F7024A74D92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF1CB95-6E24-DC5F-7315-989EB564B90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF1CB95-6E24-DC5F-7315-989EB564B90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF1CB95-6E24-DC5F-7315-989EB564B90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF1CB95-6E24-DC5F-7315-989EB564B90A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
