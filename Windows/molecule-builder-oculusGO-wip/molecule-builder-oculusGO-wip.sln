@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "molecule-builder-oculusGO-wip", "Assembly-CSharp.csproj", "{C8733276-AB4D-1383-B4A6-3CFCB237C564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "molecule-builder-oculusGO-wip", "Assembly-CSharp-Editor.csproj", "{83C6E5A7-3B8C-DA62-5EE3-BF88123708F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8733276-AB4D-1383-B4A6-3CFCB237C564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8733276-AB4D-1383-B4A6-3CFCB237C564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8733276-AB4D-1383-B4A6-3CFCB237C564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8733276-AB4D-1383-B4A6-3CFCB237C564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C6E5A7-3B8C-DA62-5EE3-BF88123708F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C6E5A7-3B8C-DA62-5EE3-BF88123708F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C6E5A7-3B8C-DA62-5EE3-BF88123708F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C6E5A7-3B8C-DA62-5EE3-BF88123708F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
