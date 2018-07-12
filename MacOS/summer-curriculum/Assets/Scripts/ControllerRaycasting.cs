@@ -17,7 +17,7 @@ public class ControllerRaycasting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray ray = new Ray(rightHand.transform.position, rightHand.transform.up);
+        Ray ray = new Ray(rightHand.transform.position, rightHand.transform.forward);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))

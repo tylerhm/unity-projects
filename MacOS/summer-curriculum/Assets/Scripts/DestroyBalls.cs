@@ -20,13 +20,14 @@ public class DestroyBalls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray ray = new Ray(rightHand.transform.position, rightHand.transform.up);
+        Ray ray = new Ray(rightHand.transform.position, rightHand.transform.forward);
         RaycastHit hit;
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity) && hit.collider.tag == "ball")
         {
             Destroy(hit.collider.gameObject);
             score++;
+            SpawnBalls.ballCount -= 1;
         }
     }
 }

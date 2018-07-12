@@ -6,10 +6,16 @@ public class ControllerMovement : MonoBehaviour
 {
 
     public float speed;
+    private GameObject mainCam;
+
+    private void Start()
+    {
+        mainCam = GameObject.Find("OVRCameraRig");
+    }
 
     void Update()
     {
         float walk = (OVRInput.Get(OVRInput.Axis2D.PrimaryTouchpad)).y * Time.deltaTime * speed;
-        transform.Translate(0.0f, 0.0f, walk);
+        mainCam.transform.position += transform.forward * walk;
     }
 }

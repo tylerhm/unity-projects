@@ -14,7 +14,8 @@ public class TrackCollisions : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Destroy(collision.collider);
+        Destroy(collision.collider.gameObject);
+        SpawnBalls.ballCount -= 1;
         health -= 10;
     }
 }

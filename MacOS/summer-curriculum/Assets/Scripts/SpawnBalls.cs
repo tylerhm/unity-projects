@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpawnBalls : MonoBehaviour
 {
-
-    private int ballCount;
+    [HideInInspector]
+    public static int ballCount;
     public int maxBalls;
 
     private Vector3 position;

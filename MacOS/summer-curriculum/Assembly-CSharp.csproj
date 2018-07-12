@@ -111,7 +111,7 @@
     <Compile Include="Assets\Scripts\ControllerMovement.cs" />
     <Compile Include="Assets\Scripts\ControllerRaycasting.cs" />
     <Compile Include="Assets\Scripts\DestroyBalls.cs" />
-    <Compile Include="Assets\Scripts\KeybaordMovement.cs" />
+    <Compile Include="Assets\Scripts\KeyboardMovement.cs" />
     <Compile Include="Assets\Scripts\SpawnBalls.cs" />
     <Compile Include="Assets\Scripts\Teleportation.cs" />
     <Compile Include="Assets\Scripts\TrackCollisions.cs" />
