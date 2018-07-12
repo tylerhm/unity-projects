@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "summer-curriculum", "Assembly-CSharp.csproj", "{A76BCBA1-BB01-4AB9-77B9-1AD1D3D44EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "summer-curriculum", "Assembly-CSharp-Editor.csproj", "{C05452CE-EFF0-07F7-BCD3-1D51B63FE7A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A76BCBA1-BB01-4AB9-77B9-1AD1D3D44EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76BCBA1-BB01-4AB9-77B9-1AD1D3D44EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76BCBA1-BB01-4AB9-77B9-1AD1D3D44EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76BCBA1-BB01-4AB9-77B9-1AD1D3D44EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05452CE-EFF0-07F7-BCD3-1D51B63FE7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05452CE-EFF0-07F7-BCD3-1D51B63FE7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05452CE-EFF0-07F7-BCD3-1D51B63FE7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05452CE-EFF0-07F7-BCD3-1D51B63FE7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
