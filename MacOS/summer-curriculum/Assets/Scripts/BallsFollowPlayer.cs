@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallsFollowPlayer : MonoBehaviour
 {
-
+/*
     public float speed;
 
     private GameObject player;
@@ -22,4 +22,20 @@ public class BallsFollowPlayer : MonoBehaviour
 
         transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
     }
+    */
+
+    public float speed;
+
+    private GameObject player;
+
+    void Start() {
+      player = GameObject.Find("Body");
+    }
+
+    void Update() {
+      float step = speed * Time.deltaTime;
+
+      transform.position = Vector3.MoveTowards(transform.position, player.transform.position, step);
+    }
+
 }

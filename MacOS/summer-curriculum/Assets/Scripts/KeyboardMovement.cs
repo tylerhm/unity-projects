@@ -15,7 +15,10 @@ public class KeyboardMovement : MonoBehaviour
 
     void Update()
     {
-        float walk = Input.GetAxis("Vertical") * Time.deltaTime * speed;
-        mainCam.transform.position += transform.forward * walk;
+        float walkV = Input.GetAxis("Vertical") * Time.deltaTime * speed;
+        mainCam.transform.position += new Vector3(0, 0, 1) * walkV;
+
+        float walkH = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+        mainCam.transform.position += new Vector3(1, 0, 0) * walkH;
     }
 }

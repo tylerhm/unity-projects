@@ -6,7 +6,7 @@ using UnityEngine.VR;
 
 public class ControllerRaycasting : MonoBehaviour
 {
-
+    /*
     private GameObject rightHand;
 
     void Start()
@@ -22,7 +22,32 @@ public class ControllerRaycasting : MonoBehaviour
 
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
-            //ADD CHANGE MATERIAL FUNCTION HERE
+            Destroy(hit);
         }
     }
+    */
+
+    private GameObject rightHand;
+
+    [HideInInspector]
+    public static int score;
+
+    void Start()
+    {
+        rightHand = GameObject.Find("RightHandAnchor");
+        score = 0;
+    }
+
+    void Update()
+    {
+        Ray ray = new Ray(rightHand.transform.position, rightHand.transform.forward);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        {
+            Destroy(hit.collider.gameObject);
+            score++;
+        }
+    }
+
 }

@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class UpdateUI : MonoBehaviour
 {
+
+/*
+
     private GameObject healthObject;
     private GameObject scoreObject;
 
@@ -26,5 +29,26 @@ public class UpdateUI : MonoBehaviour
     {
         health.text = "Health: " + TrackCollisions.health + "%";
         score.text = "Score: " + DestroyBalls.score;
+    }
+
+    */
+
+    private GameObject scoreObject;
+    private GameObject healthObject;
+
+    private Text score;
+    private Text health;
+
+    void Start() {
+      scoreObject = GameObject.Find("Score");
+      healthObject = GameObject.Find("Health");
+
+      score = scoreObject.GetComponent<Text>();
+      health = healthObject.GetComponent<Text>();
+    }
+
+    void Update() {
+      health.text = "Health: " + TrackCollisions.health + "%";
+      score.text = "Score: " + ControllerRaycasting.score;
     }
 }
