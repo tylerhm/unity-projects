@@ -131,7 +131,7 @@ public class GameController : MonoBehaviour
 		} else if (drawing == true) {
 			PointTwo ();
 		}
-			
+
 		GrabMolecule ();
 
 	}
@@ -152,7 +152,7 @@ public class GameController : MonoBehaviour
 
 		Ray ray = new Ray (rightHand.transform.position, rightHand.transform.up);
 
-		if (Physics.Raycast (ray, out hit, Mathf.Infinity) && OVRInput.Get (rightTrigger)) {														
+		if (Physics.Raycast (ray, out hit, Mathf.Infinity) && OVRInput.Get (rightTrigger)) {
 			if (hit.collider.tag == "Button") {
 				if (hit.transform.name == "CarbonButton") {
 					CreateAtom (carbon);
@@ -222,7 +222,7 @@ public class GameController : MonoBehaviour
 
 		if (Physics.Raycast (ray, out hit, Mathf.Infinity) && OVRInput.Get (rightTrigger)) {
 			if (hit.transform.name == "YesButton") {
-				
+
 				gameAtoms = GameObject.FindGameObjectsWithTag ("Atom");
 				gameBonds = GameObject.FindGameObjectsWithTag ("Bond");
 
@@ -310,7 +310,7 @@ public class GameController : MonoBehaviour
 		position = pointOne + (offset / 2);
 
 		if (bondNumber == 1) {
-			
+
 			GameObject newBond = Instantiate (bond, position, Quaternion.identity);
 			newBond.transform.up = offset;
 			newBond.transform.localScale = scale;
@@ -369,7 +369,7 @@ public class GameController : MonoBehaviour
 		}
 
 		if (scaling == true) {
-			
+
 			gameAtoms = GameObject.FindGameObjectsWithTag ("Atom");
 			gameBonds = GameObject.FindGameObjectsWithTag ("Bond");
 
@@ -384,7 +384,7 @@ public class GameController : MonoBehaviour
 			movementAxis.SetActive (true);
 
 		} else if (atomSelected == false) {
-			
+
 			gameAtoms = GameObject.FindGameObjectsWithTag ("Atom");
 			gameBonds = GameObject.FindGameObjectsWithTag ("Bond");
 
@@ -404,7 +404,7 @@ public class GameController : MonoBehaviour
 
 		if (scaling == true) {
 			if (OVRInput.Get (rightThumbVector).y > 1) {
-				
+
 			}
 		}
 	}
