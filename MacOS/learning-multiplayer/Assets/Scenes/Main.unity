@@ -251,53 +251,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &627013205
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4293995414499742, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114494849189230924, guid: 878ba7409808a4922b58512984ab392e,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 878ba7409808a4922b58512984ab392e, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &1272841268
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,6 +261,7 @@ GameObject:
   - component: {fileID: 1272841271}
   - component: {fileID: 1272841270}
   - component: {fileID: 1272841269}
+  - component: {fileID: 1272841272}
   m_Layer: 0
   m_Name: Network Manager
   m_TagString: Untagged
@@ -344,7 +298,7 @@ MonoBehaviour:
   m_NetworkPort: 7777
   m_ServerBindToIP: 0
   m_ServerBindAddress: 
-  m_NetworkAddress: localhost
+  m_NetworkAddress: 192.168.0.12
   m_DontDestroyOnLoad: 1
   m_RunInBackground: 1
   m_ScriptCRCCheck: 1
@@ -426,6 +380,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1272841272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1272841268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1553936188, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BroadcastPort: 47777
+  m_BroadcastKey: 2222
+  m_BroadcastVersion: 1
+  m_BroadcastSubVersion: 1
+  m_BroadcastInterval: 1000
+  m_UseNetworkManager: 1
+  m_BroadcastData: HELLO
+  m_ShowGUI: 1
+  m_OffsetX: 0
+  m_OffsetY: 105
 --- !u!1 &2002634310
 GameObject:
   m_ObjectHideFlags: 0

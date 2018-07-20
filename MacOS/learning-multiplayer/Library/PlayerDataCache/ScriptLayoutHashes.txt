@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/tyler/Documents/GitHub/unity-projects/Builds/learning-mult-host.app
+/Users/tyler/Documents/GitHub/unity-projects/Builds/learning-mult-client.app
 SceneListBegin?
 Assets/Scenes/Main.unity
 SceneListEnd?
